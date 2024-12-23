@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int strStr(string haystack, string needle) {
         int j =(haystack.length() -  needle.length())+1;
         for (int i =0;i<j;i++){
