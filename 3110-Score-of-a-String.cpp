@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     int scoreOfString(string s) {
         int score = 0;
