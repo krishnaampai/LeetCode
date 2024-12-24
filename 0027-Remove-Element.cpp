@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int removeElement(vector<int>& nums, int val) {
         vector <int> :: iterator it;
         it = nums.begin();
