@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     string finalString(string s) {
         string result;
