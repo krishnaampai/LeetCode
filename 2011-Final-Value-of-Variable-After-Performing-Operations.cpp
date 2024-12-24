@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int finalValueAfterOperations(vector<string>& operations) {
         
         int x = 0;
