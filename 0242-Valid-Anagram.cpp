@@ -6,7 +6,12 @@ public:
         }
         unordered_map<char,int> schars,tchars;
         for (int i=0;i<s.length();i++){
-            s[s[i]]= 1+ 
+            schars[s[i]]++;
+            tchars[t[i]]++;
         }
+        if (schars==tchars){
+            return true;
+        }
+        return false;
     }
 };
